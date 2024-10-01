@@ -24,9 +24,3 @@ def cobertura(casas, R, K):
 
 def ordenar_casas(casas):
     return sorted(casas)
-
-if __name__ == "__main__":
-    casas = [75, 20, 50, 105, 5]
-    K = 105
-    R = 25
-    print(cobertura(casas, R, K))

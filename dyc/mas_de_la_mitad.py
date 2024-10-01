@@ -25,7 +25,3 @@ def mas_de_la_mitad_rec(arr, inicio, fin):
     if count_d > (fin - inicio + 1) // 2:
         return der
     return None
-
-if __name__ == '__main__':
-    arreglo = [1, 2, 1, 1, 1, 2, 1, 2]
-    print(mas_de_la_mitad(arreglo))

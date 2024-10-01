@@ -40,16 +40,3 @@ def obtener_aristas(grafo):
             if (w, v) not in aristas:
                 aristas.append((v, w))
     return aristas
-
-if __name__ == '__main__':
-    g = Grafo()
-    g.agregar_vertice('0')
-    g.agregar_vertice('1')
-    g.agregar_vertice('2')
-    g.agregar_vertice('3')
-    g.agregar_vertice('4')
-    g.agregar_arista('0', '2')
-    g.agregar_arista('1', '4')
-    g.agregar_arista('2', '4')
-    g.agregar_arista('3', '4')
-    print(vertex_cover_min(g))

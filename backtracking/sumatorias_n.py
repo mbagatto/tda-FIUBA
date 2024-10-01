@@ -20,8 +20,3 @@ def _sumatorias_n_bt(lista, n, indice_actual, solucion_parcial, resultado):
     _sumatorias_n_bt(lista, n, indice_actual + 1, solucion_parcial, resultado)
     solucion_parcial.pop()
     return _sumatorias_n_bt(lista, n, indice_actual + 1, solucion_parcial, resultado)
-
-if __name__ == '__main__':
-    lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    n = 12
-    print(sumatorias_n(lista, n))

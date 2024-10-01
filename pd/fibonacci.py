@@ -17,6 +17,3 @@ def _fibonacci_dinamico(n, M_FIB):
         M_FIB[n-2] = _fibonacci_dinamico(n-2, M_FIB)
     M_FIB[n] = M_FIB[n-1] + M_FIB[n-2]
     return M_FIB[n]
-
-if __name__ == '__main__':
-    print(fibonacci(5))
